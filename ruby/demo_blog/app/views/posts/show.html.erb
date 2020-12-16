@@ -1,2 +1,7 @@
-<h1>Posts#show</h1>
-<p>Find me in app/views/posts/show.html.erb</p>
+<h1>Posts show</h1>
+# <p>Find me in app/views/posts/show.html.erb</p>
+
+<%= link_to 'Remove', @post, method: :delete, data: { confirm: 'Are you sure?' } %>
+
+<h1><%= @post.author %></h1>
+<h4>"<%= @post.content %>"</h4>
