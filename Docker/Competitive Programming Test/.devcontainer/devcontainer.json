@@ -1,0 +1,29 @@
+{
+	"name": "Testing",
+
+	//"image": "iotiotdotin/codestyle-dev:latest",
+	"image": "test-image",
+
+	/*"build": {
+		"dockerfile": "Dockerfile"
+	},*/
+
+	"workspaceMount": "source=${localWorkspaceFolder},target=/home/aadhitya,type=bind,consistency=delegated",
+
+	"workspaceFolder": "/home/aadhitya",
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"vscjava.vscode-java-pack",
+		"ms-python.python",
+        "ms-toolsai.jupyter",
+        "visualstudioexptteam.vscodeintellicode",
+        "vscode-icons-team.vscode-icons",
+        "ms-vscode.cpptools",
+	],
+
+	// Set *default* container specific settings.json values on container create. 
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+}
