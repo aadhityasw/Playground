@@ -4,7 +4,7 @@
 
 * Run using docker
 ```bash
-docker run --rm -p 3000:3000 --expose 3000 -v /Volumes/Aadhitya\ Mac\ Apps/Github/Dummy-Apps/ruby/:/usr/src -w /usr/src -ti ruby-on-rails bash
+docker run --rm -p 3000:3000 --expose 3000 -v <path to project folder>:/usr/src -w /usr/src -ti ruby-on-rails bash
 ```
 and inside the container use `rails server --binding 0.0.0.0` to run the server.
 To view the server go to `localhost:3000` to view the webpage.
