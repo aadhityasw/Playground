@@ -5,6 +5,10 @@ Here we will be expermenting with the various aspects of how Docker and containe
 
 ### Publishing Docker images to Github Container Repository
 
-https://blog.codecentric.de/en/2021/03/github-container-registry/
+The following links provide a guide to push your docker images onto your Github Container Registry.
 
-https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry
+* https://blog.bitsrc.io/using-github-container-registry-in-practice-295677c6f65e
+
+* https://blog.codecentric.de/en/2021/03/github-container-registry/
+
+* https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry
