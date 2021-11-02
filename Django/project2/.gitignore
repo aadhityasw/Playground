@@ -8,3 +8,5 @@
 !*/migrations/__init__.py
 
 *.sqlite3
+
+project2/secrets.py
