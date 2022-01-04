@@ -12,7 +12,7 @@ A Repository of the collections of the `apps`, `codes`, `projects`, etc buit whi
 ## 3. [Ruby](./ruby)
 
 
-## 4. Java Programming Language
+## 4. [Java Programming Language](./java/)
 
 
 ## 5. [JavaScript](./Javascript/)
