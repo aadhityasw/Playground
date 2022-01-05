@@ -13,3 +13,7 @@
 4. Dummy Dialer
 
 5. Fragments
+
+6. Implicit Intents
+
+7. Vector
