@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="Errormsg">No Data Received</string>
+    <string name="act1welcome">Welcome to Activity 1</string>
+    <string name="entersur">Enter Surname</string>
+    <string name="button">Button</string>
+    <string name="name">Enter Name</string>
+    <string name="act1">ACT 1</string>
+    <string name="act2">ACT 2</string>
+    <string name="textview">Text View</string>
+</resources>
