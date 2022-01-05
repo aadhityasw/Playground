@@ -9,3 +9,7 @@
 2. Intents
 
 3. Registration Number Validator
+
+4. Dummy Dialer
+
+5. Fragments
